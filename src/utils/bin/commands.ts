@@ -110,6 +110,10 @@ export const cd = async (args: string[]): Promise<string> => {
 if you want to help, you can type 'support'.`;
 };
 
+export const pwd = async (args: string[]): Promise<string> => {
+  return `/home/pybash`;
+}
+
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
