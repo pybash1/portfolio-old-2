@@ -1,0 +1,48 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/pybash1/pybash1/master/README.md",
+  "title": "PyBash's Portfolio",
+  "name": "Py Bash",
+  "social": {
+    "github": "pybash1",
+    "discord":{
+      "tag":"pybash#3122",
+      "id":"626461325744275464",
+      "server":"https://discord.gg/DUeaUDxC7t"
+    }
+  },
+  "ps1_hostname": "pybash.vercel.app",
+  "ps1_username": "guest",
+  "repo": "https://github.com/pybash1",
+  "website":"https://pybash.vercel.app",
+  "blog":"https://pybash.medium.com",
+  "projects": {
+    "first":{
+      "name":"py-everything",
+      "link":"https://github.com/pybash1/py-everything"
+    },
+    "second":{
+      "name":"Pastegram",
+      "link":"https://github.com/pastegram/backend"
+    }
+  },
+  "colors": {
+    "light": {
+      "background": "#FFFFDB",
+      "foreground": "#282a36",
+      "yellow": "#ffb86c",
+      "green": "#50fa7b",
+      "gray": "#8B6BB9",
+      "blue": "#67AFC0",
+      "red": "#ff5555"
+    },
+    "dark": {
+      "background": "#282a36",
+      "foreground": "#f8f8f2",
+      "yellow": "#ffb86c",
+      "green": "#50fa7b",
+      "gray": "#bd93f9",
+      "blue": "#8be9fd",
+      "red": "#ff5555"
+    }
+  }
+}
