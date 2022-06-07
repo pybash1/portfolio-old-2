@@ -10,9 +10,9 @@ export const projects = async (args: string[]): Promise<string> => {
   return projects
     .map(
       (repo) =>
-        `${repo.name} - <a class="text-light-blue dark:text-dark-blue underline" href="${repo.html_url}" target="_blank">${repo.html_url}</a>`,
+        `<a href="https://github.com/${repo.user}/${repo.name}" align="left"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${repo.user}&repo=${repo.name}&title_color=3382ed&text_color=ffffff&icon_color=3382ed&bg_color=0f172a&hide_border=true&locale=en" /></a>`,
     )
-    .join('\n');
+    .join('<br />');
 };
 
 export const quote = async (args: string[]): Promise<string> => {

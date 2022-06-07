@@ -25,6 +25,32 @@
       "link":"https://github.com/pastegram/backend"
     }
   },
+  "projectsCmd": [
+    {
+      "user": "pybash1",
+      "name": "befit"
+    },
+    {
+      "user": "rrpm-org",
+      "name": "rrpm"
+    },
+    {
+      "user": "CutCode-org",
+      "name": "CutCode-svelte"
+    },
+    {
+      "user": "Cotidie-project",
+      "name": "backend"
+    },
+    {
+      "user": "pybash1",
+      "name": "py_everything"
+    },
+    {
+      "user": "pastegram",
+      "name": "backend"
+    }
+  ],
   "colors": {
     "light": {
       "background": "#FFFFDB",
