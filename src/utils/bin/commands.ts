@@ -40,8 +40,8 @@ More about me:
 
 // Donate
 export const support = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
+  return `Thank you for your interest. 
+Here are the ways you can support my work:
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">Follow me</a></u>
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">Star my Projects</a></u>
 `;
